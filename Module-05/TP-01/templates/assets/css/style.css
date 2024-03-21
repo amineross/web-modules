@@ -1,0 +1,147 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+.home-container {
+    max-width: 800px;
+    height: 100%;
+    margin: 1rem auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header, footer {
+    width: 100%;
+    background-color: #28282B;
+    color: #fff;
+    text-align: center;
+    position: sticky;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    height: 220px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+
+form {
+    background-color: #fff;
+    width: 60vw;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px 0; 
+}
+
+input[type="text"], button {
+    padding: 10px;
+    margin: 10px 0; 
+    border-radius: 5px; 
+    border: 1px solid #ddd; 
+    width: calc(100% - 22px); 
+}
+
+button {
+    background-color: #005AEE;
+    color: #fff;
+    border: none;
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+button:hover {
+    background-color: #0041C4; 
+}
+a {
+    color: #005AEE;
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+img 
+{
+    height: 128px;
+    width: 128px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.RegisterH1 {
+    color: #333;
+    text-align: center;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* makes padding included in width */
+}
+
+.error-message {
+    color: #d32f2f;
+    font-size: 0.9em;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
